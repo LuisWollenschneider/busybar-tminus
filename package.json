@@ -1,5 +1,5 @@
 {
-  "name": "busybar-countdown",
+  "name": "tminus",
   "private": true,
   "version": "0.1.0",
   "description": "Animated countdown to any moment, more precise as it gets closer.",
