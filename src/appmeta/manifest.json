@@ -2,7 +2,7 @@
   "format_version": 1,
   "id": "dev.luiswo.tminus",
   "name": "T-Minus",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "api_version": "27.14.0",
   "description": "Animated countdown to any moment, more precise as it gets closer.",
   "author": "LuisWollenschneider"
