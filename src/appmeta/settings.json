@@ -1,0 +1,102 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "warning": {
+      "type": "enum",
+      "label": "Amber from",
+      "description": "The countdown turns amber when this much time is left.",
+      "default": "1d",
+      "options": [
+        {
+          "value": "1h",
+          "label": "1 hour left"
+        },
+        {
+          "value": "3h",
+          "label": "3 hours left"
+        },
+        {
+          "value": "6h",
+          "label": "6 hours left"
+        },
+        {
+          "value": "12h",
+          "label": "12 hours left"
+        },
+        {
+          "value": "1d",
+          "label": "1 day left"
+        },
+        {
+          "value": "3d",
+          "label": "3 days left"
+        },
+        {
+          "value": "1w",
+          "label": "1 week left"
+        },
+        {
+          "value": "2w",
+          "label": "2 weeks left"
+        },
+        {
+          "value": "30d",
+          "label": "30 days left"
+        }
+      ]
+    },
+    "danger": {
+      "type": "enum",
+      "label": "Red from",
+      "description": "The countdown turns red and starts to beat when this much time is left.",
+      "default": "1h",
+      "options": [
+        {
+          "value": "1m",
+          "label": "1 minute left"
+        },
+        {
+          "value": "5m",
+          "label": "5 minutes left"
+        },
+        {
+          "value": "15m",
+          "label": "15 minutes left"
+        },
+        {
+          "value": "30m",
+          "label": "30 minutes left"
+        },
+        {
+          "value": "1h",
+          "label": "1 hour left"
+        },
+        {
+          "value": "3h",
+          "label": "3 hours left"
+        },
+        {
+          "value": "12h",
+          "label": "12 hours left"
+        },
+        {
+          "value": "1d",
+          "label": "1 day left"
+        }
+      ]
+    },
+    "sound": {
+      "type": "boolean",
+      "label": "Sound at zero",
+      "default": true
+    },
+    "labels": {
+      "type": "string",
+      "label": "Labels",
+      "description": "The names you can pick when you add or edit a countdown on the bar, separated by commas. Add your own, remove the ones you never use. \"No label\" is always offered.",
+      "default": "COUNTDOWN, LUNCH, BIRTHDAY, EXAM, ANNIVERSARY, CHRISTMAS, NEW YEAR, HOLIDAY, VACATION, TRIP, WEDDING, PARTY, LAUNCH, RELEASE, DEADLINE, DEMO, MEETING, STAND-UP, HOME TIME, WEEKEND, PAYDAY",
+      "max_length": 255
+    }
+  }
+}
